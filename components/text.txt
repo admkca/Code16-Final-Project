@@ -1,0 +1,56 @@
+import React, { useState, useEffect } from 'react';
+
+function Nav() {
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    const storedMode = localStorage.getItem('darkMode');
+    if (storedMode) {
+      setDarkMode(JSON.parse(storedMode));
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('darkMode', JSON.stringify(darkMode));
+    if (darkMode) {
+      document.body.classList.add('dark-mode');
+    } else {
+      document.body.classList.remove('dark-mode');
+    }
+  }, [darkMode]);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
+
+  return (
+    <nav className={`navbar navbar-expand-lg bg-body-tertiary ${darkMode ? 'bg-dark' : 'bg-light'}`} data-bs-theme={darkMode ? 'dark' : 'light'}>
+      <div className="container-fluid">
+        <a className="navbar-brand" href="/">
+          <img src="src\images\navbar.png" width={70} height={70} alt="Logo" />
+        </a>
+        <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav ms-5">
+        <li className="nav-item ms-5">
+          <a className="nav-link " aria-current="page" href="#">Ціни</a>
+        </li>
+        <li className="nav-item ms-5">
+          <a className="nav-link" href="#" >Зали</a>
+        </li>
+        <li className="nav-item ms-5">
+          <a className="nav-link" href="#">Контакти</a>
+        </li>
+        <li className="nav-item ms-5">
+          <a className="nav-link" href="#">Новини</a>
+        </li>
+      </ul>
+        </div>
+        <button onClick={toggleDarkMode} className="mode-button">
+          {darkMode ? 'Light Mode' : 'Dark Mode'}
+        </button>
+      </div>
+    </nav>
+  );
+}
+
+export default Nav;
