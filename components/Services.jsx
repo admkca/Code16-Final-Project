@@ -5,11 +5,10 @@ function Services() {
     <div className="container-left">
       <div className="row">
         <div className="col-sm ps-4">
-          <h1>Послуги</h1>
+          <h1>Sercives</h1>
           <hr />
           <p>
-            Ми справді маємо свої переваги - під одним дахом ти отримуєш повний
-            спектр послуг: від тренажерів, фітнесу до тенісу та сауни!
+          We truly have our advantages - under one roof, you get a full range of services: from gym equipment and fitness to tennis and sauna!
           </p>
           <div className="container">
             <div className="row">
@@ -17,7 +16,7 @@ function Services() {
                 <div className="my-5">
                   <p>
                     {" "}
-                    <img src="src\images\image 35.png" alt="" /> Тренажерні зали
+                    <img src="src\images\image 35.png" alt="" /> Gym Facilities
                   </p>
                 </div>
               </div>
@@ -25,7 +24,7 @@ function Services() {
                 <div className="my-5">
                   <p>
                     <img src="src\images\image 54.png" alt="" />
-                    Персональні тренування
+                    Personal Training
                   </p>
                 </div>
               </div>
@@ -41,7 +40,7 @@ function Services() {
                 <div className="my-5">
                   <p>
                     <img src="src\images\image 34.png" alt="" />
-                    Групові програми
+                    Group Programs
                   </p>
                 </div>
               </div>
@@ -49,7 +48,7 @@ function Services() {
                 <div className="my-5">
                   <p>
                     <img src="src\images\image 36.png" alt="" />
-                    Фіт бар
+                    Fitness Bar
                   </p>
                 </div>
               </div>
@@ -57,7 +56,7 @@ function Services() {
                 <div className="my-5">
                   <p>
                     <img src="src\images\image 33 (1).png" alt="" />
-                    Сауна
+                    Sauna
                   </p>
                 </div>
               </div>

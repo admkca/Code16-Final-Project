@@ -6,18 +6,18 @@ function Cardnext() {
       <div className="row justify-content-center mb-4">
         <div className="col-sm-4 text-center">
           <img id="ingym" src="src\images\ingym.png" alt="" />
-          <h1>Олімп Шевченка</h1>
-          <button className="ingym-btn">Детальніше</button>
+          <h1>Olymp Shevchenka</h1>
+          <button className="ingym-btn">Learn More</button>
         </div>
         <div className="col-sm-4 text-center">
           <img id="ingym" src="src\images\ingym-2.png" alt="" />
-          <h1>Олімп Стрийська</h1>
-          <button className="ingym-btn">Детальніше</button>
+          <h1>Olymp Stryiska</h1>
+          <button className="ingym-btn">Learn More</button>
         </div>
         <div className="col-sm-4 text-center">
           <img id="ingym" src="src\images\image 23 (2).png" alt="" />
-          <h1>Олімп Сокільники</h1>
-          <button className="ingym-btn">Детальніше</button>
+          <h1>Olymp Sokilnyky</h1>
+          <button className="ingym-btn">Learn More</button>
         </div>
         <div className="col-sm-4 py-5 text-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="49" height="12" viewBox="0 0 49 12" fill="none">
@@ -29,7 +29,6 @@ function Cardnext() {
         
       </div>
     </div>
-    
   );
 }
 

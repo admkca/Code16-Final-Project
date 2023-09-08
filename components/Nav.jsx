@@ -12,22 +12,22 @@ function Nav() {
           <ul className="navbar-nav ms-5">
             <li className="nav-item ms-5">
               
-                Ціни
+                Prices
              
             </li>
             <li className="nav-item ms-5">
               
-                Зали
+                Facilities
               
             </li>
             <li className="nav-item ms-5">
               
-                Контакти
+                Contacts
               
             </li>
             <li className="nav-item ms-5">
               
-                Новини
+                News
               
             </li>
             <li className="nav-item ms-5">
