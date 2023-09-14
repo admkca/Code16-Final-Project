@@ -1,0 +1,25 @@
+.dark  {
+  background-color: #1a1a1a;
+  color: white;
+  
+}
+
+.light {
+  background-color: white;
+  color: #333;
+}
+#ingym{
+  border-radius: 30px;
+  border: 2px solid #45B126;
+
+}
+.ingym-btn{
+  border-radius: 40px;
+  border: 2px solid #45B126;
+  display: inline-flex;
+  padding: 17px 83px 17px 84px;
+  justify-content: center;
+  align-items: center;
+}
+
+
